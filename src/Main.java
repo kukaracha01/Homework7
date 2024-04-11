@@ -49,5 +49,15 @@ public class Main {
             System.out.println("Год " + year + ", численность населения составляет " + populationOfTheCountryY);
         }
 
+        System.out.println("Task4");
+        int summInBankForVasiliy = 15000;
+        month = 0;
+        while (summInBankForVasiliy <= 12_000_000) {
+            summInBankForVasiliy = summInBankForVasiliy / 100 * 107;
+            month = month + 1;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + summInBankForVasiliy);
+        }
+
+
     }
 }
