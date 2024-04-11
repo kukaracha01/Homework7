@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Task8");
+        System.out.println("OldTask8");
         int summInMonth = 29000;
         int allMoney = 0;
         for (int i = 1; i <= 12; i++) {
@@ -8,7 +8,7 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + allMoney + " рублей");
         }
 
-        System.out.println("Task9");
+        System.out.println("OldTask9");
         summInMonth = 29000;
         int allMoneyInBank = 0;
         for (int i = 1; i <= 12; i++) {
