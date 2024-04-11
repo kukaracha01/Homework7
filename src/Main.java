@@ -38,5 +38,16 @@ public class Main {
         for (a = 10; a >= 1; a--) {
             System.out.print(a + " ");
         }
+        System.out.println();
+
+        System.out.println("Task3");
+        int populationOfTheCountryY = 12_000_000;
+        int birthRate = 17;
+        int mortality = 8;
+        for (int year = 1; year <= 10; year++) {
+            populationOfTheCountryY = populationOfTheCountryY + ((birthRate - mortality) * 1000);
+            System.out.println("Год " + year + ", численность населения составляет " + populationOfTheCountryY);
+        }
+
     }
 }
