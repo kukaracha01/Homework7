@@ -81,7 +81,14 @@ public class Main {
             }
         }
 
-        System.out.println("Task6");
+        System.out.println("Task7");
+        int sreemerFriday = 1;
+        for (int dayInMonth = 1; dayInMonth <= 31; dayInMonth++) {
+            if (dayInMonth == sreemerFriday) {
+                sreemerFriday = sreemerFriday + 7;
+                System.out.println("Сегодня пятница," + dayInMonth + "-е число. Необходимо подготовить отчет");
+            }
+        }
 
 
     }
