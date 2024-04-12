@@ -58,6 +58,16 @@ public class Main {
             System.out.println("Месяц " + month + ", сумма накоплений равна " + summInBankForVasiliy);
         }
 
+        System.out.println("Task5");
+        month = 0;
+        while (month <= 24) {
+            month = month + 1;
+            if (month % 6 == 0) {
+                System.out.println(month);
+            }
+        }
+
+        System.out.println("Task6");
 
     }
 }
