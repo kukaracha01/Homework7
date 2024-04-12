@@ -60,14 +60,29 @@ public class Main {
 
         System.out.println("Task5");
         month = 0;
-        while (month <= 24) {
+        summInBankForVasiliy = 15000;
+        while (summInBankForVasiliy <= 12_000_000) {
+            summInBankForVasiliy = summInBankForVasiliy / 100 * 107;
             month = month + 1;
             if (month % 6 == 0) {
-                System.out.println(month);
+                System.out.println("Месяц " + month + ", сумма накоплений равна " + summInBankForVasiliy);
             }
         }
 
         System.out.println("Task6");
+        month = 0;
+        summInBankForVasiliy = 15000;
+        int allTime = 9 * 12;
+        while (month <= allTime) {
+            summInBankForVasiliy = summInBankForVasiliy / 100 * 107;
+            month = month + 1;
+            if (month % 6 == 0) {
+                System.out.println("Месяц " + month + ", сумма накоплений равна " + summInBankForVasiliy);
+            }
+        }
+
+        System.out.println("Task6");
+
 
     }
 }
