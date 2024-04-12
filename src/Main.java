@@ -82,14 +82,22 @@ public class Main {
         }
 
         System.out.println("Task7");
-        int sreemerFriday = 1;
+        int terribleFriday = 1;
         for (int dayInMonth = 1; dayInMonth <= 31; dayInMonth++) {
-            if (dayInMonth == sreemerFriday) {
-                sreemerFriday = sreemerFriday + 7;
+            if (dayInMonth == terribleFriday) {
+                terribleFriday = terribleFriday + 7;
                 System.out.println("Сегодня пятница," + dayInMonth + "-е число. Необходимо подготовить отчет");
             }
         }
 
+        System.out.println("Task8");
+        int yearBefore = 2024 - 200;
+        int yearAfter = 2024 + 100;
+        for (int year = yearBefore; year < yearAfter; year++) {
+            if (year % 79 == 0) {
+                System.out.println(year);
+            }
+        }
 
     }
 }
